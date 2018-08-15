@@ -1,0 +1,19 @@
+﻿Refresh Token: AGdpqeyuecHSdVbTgga8GFeG9_L0lk78HM0dPzk5lPLv2qa_p3TPU2MB_g40cJ0-iyWY6S9WsCKTlpB2AAswQxlCy58MhPpYYyqEaSAZACZTMhDJrS2RNjJshETHlpmgwOvlanPzJ74ZElRkR2AyxkjzHvvu_hp6b5AWbPJyTp8DgJ6Bp-Qxq1Xi2Lx6VMuZMn7_TJ0LOcRuVnvesEOTha6rQAPhW5ZPyyTmeDYJAwtXU2mXWNC0S0xfwdBG9c-0S0TLdZVduV5q
+refreshToken: imutável / 268 bits
+accessToken: 1108bits
+
+
+Autenticação: https://documenter.getpostman.com/view/3817475/nextter/RVnZiJrp#2a9b6e8f-9719-424a-8f18-71f20d4755f1
+POST: /api/v1/refreshToken
+Body: refreshToken
+Retorno: accessToken
+
+
+Criar o dispositivo: https://documenter.getpostman.com/view/3817475/nextter/RVnZiJrp#49d19be1-7556-467b-868c-90007ccfc0fc
+Header: accessToken
+Body: documentação
+* UUID precisa ser um identificador do device
+
+
+Mandar a localização: https://documenter.getpostman.com/view/3817475/nextter/RVnZiJrp#48bf8c8e-7614-4cd5-a9ed-0ad7f6464257
+POST: /api/v1/location/{UUID}
