@@ -6,4 +6,14 @@
     <RootNamespace>Nextter.Socket.Core</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Factories\**" />
+    <EmbeddedResource Remove="Factories\**" />
+    <None Remove="Factories\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Singletons\" />
+  </ItemGroup>
+
 </Project>

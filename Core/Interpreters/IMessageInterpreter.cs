@@ -8,6 +8,7 @@ namespace Nextter.Socket.Core.Interpreters
     {
 
 		bool Test(string data);
+		string Process(string data);
 		Models.Message Decode(string data);
 		string Encode(Models.Message message);
 

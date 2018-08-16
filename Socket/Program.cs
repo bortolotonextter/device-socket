@@ -4,16 +4,18 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace Nextter
+namespace Nextter.Socket
 {
     class Program
     {
         static void Main(string[] args)
         {
-			TcpHelper.StartServer(5600);
-        }
-    }
+			var tcpHelper = new Core.Helpers.TcpHelper();
+			tcpHelper.Start(IPAddress.Any, 5600);
+		}
+	}
 
+	/*
 	class TcpHelper
 	{
 		private static TcpListener listener { get; set; }
@@ -154,4 +156,5 @@ namespace Nextter
 			}
 		}
 	}
+	*/
 }
